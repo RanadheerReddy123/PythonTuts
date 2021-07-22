@@ -1,0 +1,7 @@
+file = open("new1.txt", "r")
+print(file.tell())
+file.seek(5)
+print(file.readline())
+print(file.tell())
+print(file.readline())
+file.close()

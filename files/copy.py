@@ -1,0 +1,7 @@
+file = open("data.txt", "r")
+data = file.read()
+file.close()
+file = open("new1.txt", "w")
+file.write(data)
+file.close()
+print("Successfully Copied!")

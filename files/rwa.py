@@ -1,0 +1,12 @@
+file = open("data.txt","r")
+print(file.readline())
+for line in file.readlines():
+    print(line)
+file.close()
+file = open("new.txt", "w")
+file.write("This is created by RR")
+file.close()
+file = open("new.txt", "a")
+file.write("This is Python file\n")
+file.write("This is TCW tutorial")
+file.close()
